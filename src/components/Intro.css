@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;900&family=Epilogue:wght@200;300;400&family=Poppins:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Rubik+Mono+One&family=Spectral:wght@300;400;500&display=swap');
+.resumeButton{
+    color: #2C4060 !important;
+    font-family: 'Poppins', sans-serif;
+}
+.wButton{
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+#buton_variant{
+    margin-top: 10px;
+}
+
+.intro{
+    display: flex;
+    height: 100%;
+    background-color: #1d3a6d;
+    /* background-color: #132e5a; */
+}
+
+.intro .left {
+    flex: 0.5;
+    overflow: hidden;
+}
+
+.right .imgContainern {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainern img{
+    position: absolute;
+    bottom: 25%;
+    height: 67%;
+    width: 60%;
+}
+
+.right {
+      flex: 0.5;
+      position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.intro h2 {
+    font-size: 33px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.intro h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro h3 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.spanDynamic span{
+    font-size: inherit;
+    color: tomato;
+}
+
+.ityped-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80vh;
+    }
+
+    .intro .wrapper {
+        margin-left: 10px;
+        margin-top: 10%;
+        width: 100%;
+        height: 50%;
+        font-size: 5px;
+    }
+
+    .intro h2 {
+        font-size: 27px;
+        letter-spacing: 1.5px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .intro h1 {
+        font-size: 34px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .intro h3 {
+        font-size: 33px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .right .imgContainern {
+        position: relative;
+        width: 500px;
+        height: 400px;
+        display: block;
+    }
+    
+    .imgContainern img{
+        position: absolute;
+        bottom: 10%;
+        height: 75%;
+        width: 60%;
+        margin-left: 20px;
+        
+    }
+    #buton_variant{
+        margin-top: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+// .intro {
+//     background-color: white;
+//     display: flex;
+//     .left {
+//       flex: 0.5;
+//       overflow: hidden;
+  
+//       .imgContainer {
+//         width: 700px;
+//         height: 700px;
+//         background-color: crimson;
+//         border-radius: 50%;
+//         display: flex;
+//         align-items: flex-end;
+//         justify-content: center;
+//         float: right;
+
+  
+//         img {
+//           height: 90%;
+
+//         }
+//       }
+//     }
+//     .right {
+//       flex: 0.5;
+//       position: relative;
+  
+//       .wrapper {
+//         width: 100%;
+//         height: 100%;
+//         padding-left: 50px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+  
+  
+//         h1 {
+//           font-size: 60px;
+//           margin: 10px 0;
+  
+//         }
+//         h2 {
+//           font-size: 35px;
+//         }
+//         h3 {
+//           font-size: 30px;
+  
+//           span {
+//             font-size: inherit;
+//             color: crimson;
+//           } */
+  
+/* //           .ityped-cursor {
+//             animation: blink 1s infinite;
+//           }
+  
+//           @keyframes blink {
+//               50%{
+//                   opacity: 1;
+//               }
+//               100%{
+//                   opacity: 0;
+//               }
+//           }
+//         }
+//       }
+//     }
+//   } */

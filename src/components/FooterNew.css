@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;900&family=Epilogue:wght@200;300;400&family=Poppins:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Rubik+Mono+One&family=Spectral:wght@300;400;500&display=swap');
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/project_img/folded_Lap.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.FF__Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Main__Footer__Containerf{
+    display: flex;
+    gap: 3rem;
+    
+}
+.footer__col1 {
+    flex: 2;
+}
+
+.footer__col2,
+.footer__col3,
+.footer__col4 {
+    flex: 1;
+}
+
+.footer__col1__title {
+    /* transform: translate(-50%,-50%); */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: tomato;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Footer__Paraf{
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.FooterCol__Container .Footer__heading{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: tomato;
+    font-family: 'Spectral', serif;
+}
+
+.FooterCol__Container li{
+    margin-bottom: 1rem;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FooterCol__Container a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:320px){
+    .background{
+        width: 100%;
+        height: 1150px;
+        background-image: url(../image/project_img/folded_Lap.jpg);
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .FF__Container{
+        width: 100%;
+        padding-left: 1rem;
+        padding-top:30px;
+    }
+    .Main__Footer__Containerf{
+        display: flex;
+        flex-direction: column;  
+    }
+    .Footer__Paraf{
+        font-size: 17px;        
+    }
+
+}

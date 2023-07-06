@@ -1,0 +1,445 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;900&family=Poppins:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Rubik+Mono+One&display=swap');
+
+
+.progress_main_container{
+    width: 100%;
+    height: 100%;
+    background-color: #253553;
+    padding: 4% 0;
+}
+.progress_main_container h1{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.fd h1{
+    font-weight: bold;
+    font-size: 43px;
+}
+.fd{
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing:2px;
+}
+.f{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .progress_main_container_1{
+    display: flex;
+    flex-direction: column;
+} */
+.progress_main_container_1{
+    width: 580px;
+}
+.progress_main_container_2{
+    width: 580px;
+}
+
+
+.skill-name{
+    font-family: 'poppins', serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+
+.skill-bar{
+    height: 10px;
+    background-color: thistle;
+    border-radius: 3px;
+}
+.skill-per{
+    height: 10px;
+    background-color: tomato;
+    border-radius: 3px;
+    position: relative;
+    /* animation: fillBars 2.5s 1; */
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform:translateX(50%);
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1399.98px){
+
+    .progress_main_container{
+        background-color: #253553;
+        min-height: 290px;
+    }
+    .f{
+        display: flex;
+        padding-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:600px;
+    }
+    .progress_main_container_2{
+        width: 600px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+        width: 100%;
+    }
+    
+} 
+
+
+
+
+@media screen and (max-width:1199.98px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 480px;
+        background-color: #253553;
+        padding: 25px;
+    }
+    .f{
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:500px;
+    }
+    .progress_main_container_2{
+        width: 500px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+} 
+
+
+
+
+@media screen and (max-width:991.98px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 480px;
+        background-color: #253553;
+        padding: 25px;
+    }
+    .f{
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:400px;
+    }
+    .progress_main_container_2{
+        width: 400px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+} 
+
+
+
+
+
+
+@media screen and (max-width:767.98px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 480px;
+        background-color: #253553;
+        padding: 25px;
+    }
+    .f{
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:300px;
+    }
+    .progress_main_container_2{
+        width: 300px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+} 
+
+
+
+
+
+
+@media screen and (max-width:575.98px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 650px;
+        background-color: #253553;
+        padding: 25px;
+    }
+    .f{
+        display: block;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width: 520px;
+    }
+    .progress_main_container_2{
+        width: 520px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+}
+
+
+@media screen and (max-width:320px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 740px;
+        background-color: #253553;
+        padding: 10px;
+    }
+
+    .fd h1{
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 3%;
+    }
+    .f{
+        display: block;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:290px;
+    }
+    .progress_main_container_2{
+        width: 290px;
+    }
+
+
+    .skill-name{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width:577px){
+
+    .progress_main_container{
+        width: 100vw;
+        height: 650px;
+        background-color: #253553;
+        padding: 25px;
+    }
+    .f{
+        display: block;
+        margin-top: 25px;
+    }
+
+    .progress_main_container_1{
+        width:670px;
+    }
+    .progress_main_container_2{
+        width: 440px;
+    }
+
+
+    .skill-name{
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin: 35px 0;
+    }
+    
+    .skill-bar{
+        height: 8px;
+        background-color: thistle;
+        border-radius: 3px;
+    }
+    .skill-per{
+        height: 8px;
+        background-color: tomato;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    
+}  */
